@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import InputChips from "../components/input-chips/InputChips";
 
 const Homepage = (props) => {
