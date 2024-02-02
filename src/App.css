@@ -1,0 +1,51 @@
+.card-shadow {
+    background-color: #fff;
+    -webkit-box-shadow: 1px 9px 1.3125rem #358fcf19;
+    -moz-box-shadow: 1px 9px 1.3125rem #358fcf19;
+    box-shadow: 1px 9px 1.3125rem #358fcf19;
+}
+.p-2 {
+    padding: 0.5rem !important;
+}
+
+.smooth-scroller {
+    scroll-behavior: smooth;
+}
+.smooth-scroller:hover::-webkit-scrollbar-thumb {
+    background-color: #a7b3c4;
+}
+.smooth-scroller::-webkit-scrollbar {
+    width: 6px !important;
+    height: 6px !important;
+}
+
+.smooth-scroller::-webkit-scrollbar-track {
+    border-radius: 1rem;
+}
+
+.smooth-scroller::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    border-radius: 1rem;
+}
+
+.smooth-scroller::-webkit-scrollbar-thumb:hover {
+    background: black;
+}
+.text-muted {
+    color: #6c757d !important;
+}
+
+.btn.primary {
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+    background: #ff512f; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f09819, #ff512f); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f09819, #ff512f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+

@@ -1,0 +1,107 @@
+.card_shadow {
+    -webkit-box-shadow: 1px 9px 1.3125rem #358fcf19;
+    -moz-box-shadow: 1px 9px 1.3125rem #358fcf19;
+    box-shadow: 1px 9px 1.3125rem #358fcf19;
+}
+.table_container {
+    overflow-x: auto;
+    max-width: 100%;
+    max-height: 20rem;
+}
+
+table {
+    overflow: auto;
+    min-width: 100%;
+    width: min-content;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #f4f6fb;
+    color: #90a1b7;
+    text-transform: uppercase;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    border-radius: 6px !important;
+    border: none;
+    width: inherit;
+    min-height: 4rem;
+    margin-block: 1rem;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+thead tr th {
+    vertical-align: bottom;
+    padding: 0.75rem;
+
+    font-family: regular;
+    word-break: break-word;
+    min-width: 12.5rem;
+}
+
+tbody tr {
+    border-bottom: 1px solid #eceef5;
+}
+
+th,
+td {
+    min-width: 100px;
+    padding: 10px;
+
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+}
+
+.text-link {
+  cursor: pointer;
+  color: #ff8324;
+  text-decoration: underline;
+}
+
+tbody tr td .profile_cont {
+  display: flex;
+  align-items: center;
+}
+tbody tr td .profile_cont .profile_image{
+  border-radius: 50px;
+  object-fit: cover;
+  object-position: top;
+
+}
+tbody tr td .profile_cont label {
+  margin-left: 0.5rem;
+}
+
+.line-clamp-2{
+  overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.col-xxl{
+  min-width: 22rem;
+}
+.col-xl{
+  min-width: 20rem;
+}
+.col-lg{
+  min-width: 18rem;
+}
+.col-md{
+  min-width: 15rem;
+}
+.col-sm{
+  min-width: 10rem;
+}
+.col-xs{
+  min-width: 6rem;
+}
+.align-center {
+  text-align: center;
+}
